@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppListaSupermercado.View.FormularioCadastro">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="APP Lista Mercado" TextColor="Black" FontAttributes="Bold" FontSize="Title" HorizontalTextAlignment="Center" 
+                   VerticalTextAlignment="Start" />
+
+            <Label Text="🛒" FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" />
+
+            <Label Text=" " />
+            <Label Text=" " />
+            <Label Text=" " />
+
+            <Label Text="Adicione os produtos para montar a lista" TextColor="Black" FontSize="Body" HorizontalTextAlignment="Center"/>
+
+            <Label Text=" " />
+
+            <Label Text="Nome do Produto:" />
+            <Entry x:Name="nome_produto_txt" />
+            
+            <Label Text="Quantidade:" />
+            <Entry x:Name="qtd_produto_txt" Keyboard="Numeric" />
+
+            <Label Text="Valor estimado:" />
+            <Entry x:Name="valor_estimado_txt"/>
+            
+            
+            <Label Text=" " />
+            <Button Text="Adicionar Produto" BackgroundColor="DarkCyan" TextColor="White" FontAttributes="Bold" CornerRadius="50" 
+                    Clicked="Button_Clicked" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

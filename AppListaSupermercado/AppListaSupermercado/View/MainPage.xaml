@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppListaSupermercado.View.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="APP Lista Mercado" TextColor="Black" FontAttributes="Bold" FontSize="Title" HorizontalTextAlignment="Center" 
+                   VerticalTextAlignment="Start" />
+            
+            <Label Text="🛒" FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" />
+
+            <Label Text=" " />
+            <Label Text=" " />
+            <Label Text=" " />
+            <Label Text=" " />
+            <Label Text=" " />
+
+            <Label Text="Olá! 🖐️ Este é o APP Lista Mercado, feito para organizar melhor as suas compras. Nele você poderá adicionar as suas listas de compras para saber o que deve comprar." TextColor="Black" 
+                   FontSize="Body" HorizontalTextAlignment="Center"/>
+
+            <Label Text=" " />
+            <Label Text=" " />
+            <Label Text=" " />
+
+            <Button Text="Adicionar Produtos" BackgroundColor="DarkCyan" TextColor="White" FontAttributes="Bold" CornerRadius="50" Clicked="Button_Clicked"/>
+            <Button Text="Ver Lista" BackgroundColor="DarkCyan" TextColor="White" FontAttributes="Bold" CornerRadius="50" Clicked="Button_Clicked_1" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

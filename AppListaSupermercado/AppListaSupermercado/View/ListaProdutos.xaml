@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppListaSupermercado.View.ListaProdutos">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="APP Lista Mercado" TextColor="Black" FontAttributes="Bold" FontSize="Title" HorizontalTextAlignment="Center" 
+                   VerticalTextAlignment="Start" />
+
+            <Label Text="🛒" FontSize="Title" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" />
+
+            <Label Text=" " />
+            <Label Text=" " />
+
+            <Grid RowDefinitions="*"
+                  ColumnDefinitions="*, *, *" />
+
+            <Label Grid.Row="0" Grid.Column="0" Text="Nome:" TextColor="Black" FontSize="Body" FontAttributes="Bold" />
+            <Label Grid.Row="0" Grid.Column="1" Text="QTD:" TextColor="Black" FontSize="Body" FontAttributes="Bold" />
+            <Label Grid.Row="0" Grid.Column="2" Text="Valor:" TextColor="Black" FontSize="Body" FontAttributes="Bold" />
+                
+                
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
